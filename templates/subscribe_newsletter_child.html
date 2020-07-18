@@ -1,0 +1,14 @@
+{% extends "subscribe_newsletter.html" %}
+{% block content %}
+    <p>
+	{% for key, value in newsletter_data.items() %}
+	  <br>
+		  {% for k in value.keys() %}
+			<h3><dd>{{ k|upper }}</dd></h3> :</dd>{{ value[k] }}</dd>
+		  {% endfor %}  
+		<br>
+		<hr>
+		<hr>
+	{% endfor %}  	  
+    </p>
+{% endblock %}
