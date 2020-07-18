@@ -1,3 +1,5 @@
 # mailing-services
 
-sening mail created cron , as well used google pubsub creting messaging queue and sending mail 
+sending mail created cron job 
+used google pubsub for crearing messaging queqe for user subscribe newsletter and thren send mail 
+
